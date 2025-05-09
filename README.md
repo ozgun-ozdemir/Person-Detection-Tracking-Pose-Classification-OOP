@@ -1,6 +1,6 @@
-# Person-Detection-Pose-Tracking
+# Person Detection, Tracking & Pose Classification (OOP)
 
-Features
+## Features
 
 ✅ Person detection using YOLOv8 Pose model
 🔄 Unique person tracking across frames
