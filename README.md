@@ -10,4 +10,16 @@ This is a real-time computer vision application that detects people in a video, 
 - Real-time pose duration tracking
 - Modular structure for easy extension
 
-  
+## Modules
+
+- `main.py`            | Runs the pipeline: detection - tracking - classification - visualization |
+- `person_detecter.py` | Detects people and keypoints using YOLOv11n pose model |
+- `person_tracker.py`  | Tracks individual person states and pose durations |
+- `pose_classifier.py` | Classifies pose based on bounding box ratio and center movement |
+
+## Requirements
+
+- `Python 3.x`
+- `OpenCV`
+- `YOLOv11`
+- `numpy`
